@@ -152,8 +152,38 @@ rake pdf
 
  * 保存するファイル：book.pdf
 
+□[ビルド実行]を実行してみる。
 
+□[最新成功ビルドの成果物]のbook.pdfをクリックしてみる。
 
+== 電子書籍(PDF)を作ってみる。
+
+□「vagrant」アカウント用に鍵をコピーしてみる。
+//emlist{
+cd /home/vagrant/.ssh
+sudo cp /var/lib/jenkins/.ssh/id_rsa ./
+sudo chown vagrant id_rsa
+cd /home/vagrant/review-project
+git clone git@github.com:naveffy/review.git
+git commit -m "add new file"
+git status
+git push origin master
+//}
+
+□id_rsaを共有フォルダにコピーする。
+□「C:\Program Files\TortoiseGit\bin\puttygen.exe」を起動。
+□id_rsaをppk形式に変換する。
+□TortoiseGitを使う。
+□フォルダで右クリック、[TortoiseGit]-[設定]を開く。
+□[Git]-[リモート]-[origin]を選択、以下の値を入力。
+
+ * リモート：origin
+ * URL：origin：git@github.com:naveffy/review.git
+ * 鍵：C:\home\watanabe\20160308_Vagrant\id_rsa.ppk
+
+□「sample-document.re」を編集してみる。
+□フォルダで右クリック、[Gitコミット->master]を選択する。
+□メッセージ欄に適当な文字列を入れる。
 
 
 
