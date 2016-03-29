@@ -4,24 +4,24 @@
 
 □コマンドプロンプトで以下のコマンドを実行します。
 
-//emlistnum{
+//emlist{
 cd C:\Users\naveffy\projects\review-sample-book\vagrant-review-precise64-master
 vagrant up
 //}
 
 □以下の共有フォルダにソースを置いて作業します。
 
-//emlistnum{
+//emlist{
 C:\Users\naveffy\projects\review-sample-book
 //}
 
 
 □TeraTermで「192.168.33.10」へログイン。
 
-: ログオンID
-  vagrant
-: Passwd
-  vagrant
+ * ログオンID：vagrant
+ * Passwd：vagrant
+
+
 
 
 
