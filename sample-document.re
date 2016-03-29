@@ -90,14 +90,17 @@ $ cat id_rsa.pub ← 鍵の部分をコピーする。
 //}
 
 □Webブラウザで「https://github.com/」へログインする。
+
  * ログオンID：naveffy
  * Passwd：giko1234
 
 □Webブラウザで「https://github.com/settings/ssh」を開く。
 □[New SSH Key]押下する。
 □以下の値を入力する。
+
  * title：jenkin
  * key：ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDFdZp4t7MGCQcrmkhLY1TykuusvLzoKfpzGu1yYvb0Tf2A3U9yEFLpPTXBGRYgzgJ5CPSrETMczh8KVmOf/p3is6m7sEc8ewHTkS34qAiYbW7P4s3Mr6pgVhzyJIyKq0sve/COgdVeq+aEiOezZTwMQ8vCGKM+99Nr15NZ7af7syu/DXpGOURbqerbRnwQK9QLZSSwoapKdS/4+PWHAi6/JbobzYvHYnDLeGALcaWgUAR8Lp4Re0uOQOk41VSRcZ4NpIlFxJAO6TjA/OJ3sfs2NYJPiJvQdPUOXX0b5c2T3Qlbd2cD2gA8y2t4ct6FQsppKoj5wO5KXEZz2iiEWnTd jenkins@precise64
+
 □[Add SSH key]を押下する。
 
 □SSH接続を確かめてみる。
@@ -109,6 +112,7 @@ Hi naveffy! You've successfully authenticated, but GitHub does not provide shell
 □Webブラウザで「http://192.168.33.10:8080」を開いてみる。
 □「Jenkinsの管理」->「プラグインの管理」->「利用可能」を押下する。
 □以下のプラグインをインストールする。
+
  * Git Plugin
  * GitHub Plugin
  * GitHub API Plugin
@@ -122,6 +126,7 @@ Hi naveffy! You've successfully authenticated, but GitHub does not provide shell
 
 □[新しいジョブ]を押下する。
 □以下の内容でジョブを作成する。
+
  * ジョブ名：auto-build
  * [フリースタイル・プロジェクトのビルド]
  * プロジェクト名：auto-build
@@ -140,6 +145,7 @@ rake pdf
 //}
 
 □[ビルド後の処理の追加]-[成果物を保存]を押下、以下のファイル名を設定してみる。
+
  * 保存するファイル：book.pdf
 
 
