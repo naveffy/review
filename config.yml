@@ -9,19 +9,19 @@ bookname: book
 # 記述言語。省略した場合はja
 language: ja
 # 書名
-booktitle: Re:VIEWサンプル書籍
+booktitle: VagrantでRe:VIEWでJenkins
 # 固有IDに使用するドメイン。省略した場合は時刻に基づくランダムUUIDが入る
 urnid: urn:uid:http://ama-net.com
 # ISBN。省略した場合はurnidが入る
 # isbn: null
 # 著者名。["高橋征義", "John Doe"] のように配列を使うことで複数指定可
-aut: お口くちゅくちゅ@和将
+aut: 渡辺和将
 # 出版社。配列書式で複数指定可能
 prt: booKONW
 # 編集者。配列書式で複数指定可能
-edt: 渡辺@和将
+edt: 渡辺和将
 # 刊行日。YYYY-MM-DD形式。省略した場合は本日の日付
-date: 2016-02-09
+date: 2016-03-29
 # 発行年月。YYYY-MM-DD形式による配列指定。省略した場合はdateを使用する
 # 複数指定する場合は次のように記述する
 # [["初版第第1刷の日付", "初版第第2刷の日付"], ["第2版第1刷の日付"]]

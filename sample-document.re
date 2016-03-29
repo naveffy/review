@@ -1,8 +1,40 @@
-= やさしいPascal入門
+= VagrantでRe:VIEWでJenkins
 
-== Pascalってどんな言語？
+== Vagrant
 
-=== Pascalの歴史
+=== Re:VIEWサーバを構築・起動
+
+□コマンドプロンプトで以下のコマンドを実行します。
+
+//emlistnum{
+cd C:\Users\naveffy\projects\review-sample-book\vagrant-review-precise64-master
+vagrant up
+//}
+
+□以下の共有フォルダにソースを置いて作業します。
+
+//emlistnum{
+C:\Users\naveffy\projects\review-sample-book
+//}
+
+
+□TeraTermで「192.168.33.10」へログイン。
+
+
+===[column] ログインIDとパスワード
+ 
+ID  ：vagrant
+Pass：vagrant
+ 
+===[/column]
+
+
+
+
+
+
+
+
 
 Pascalは1970年、スイスのチューリッヒ工科大学教授であったニクラス・ヴイルト（Niklaus Wirth）によって開発された。教育用として系統的な言語構造をもつこと、高度に抽象化された問題をできるだけ自然な形で明瞭に記述できることを目標にしたという。ALGOLの流れを汲み、厳密な構造化仕様を持っているが簡潔で使いやすく、実用性も高い。ヴイルト自身がPascalコンパイラをPascalで記述している。
 
