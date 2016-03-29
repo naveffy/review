@@ -17,11 +17,11 @@ C:\Users\naveffy\projects\review-sample-book
 
 
 □TeraTermで「192.168.33.10」へログイン。
+
 : ログオンID
   vagrant
 : Passwd
   vagrant
-  ：
 
 
 
