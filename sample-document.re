@@ -95,7 +95,9 @@ $ cat id_rsa.pub ← 鍵の部分をコピーする。
  * Passwd：giko1234
 
 □Webブラウザで「https://github.com/settings/ssh」を開く。
+
 □[New SSH Key]押下する。
+
 □以下の値を入力する。
 
  * title：jenkin
@@ -110,7 +112,9 @@ Hi naveffy! You've successfully authenticated, but GitHub does not provide shell
 //}
 
 □Webブラウザで「http://192.168.33.10:8080」を開いてみる。
+
 □「Jenkinsの管理」->「プラグインの管理」->「利用可能」を押下する。
+
 □以下のプラグインをインストールする。
 
  * Git Plugin
