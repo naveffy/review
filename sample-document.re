@@ -1,8 +1,6 @@
-= VagrantでRe:VIEWでJenkins
+= VagrantでRe:VIEWサーバを作るよ
 
-== Vagrant
-
-=== Re:VIEWサーバを構築・起動
+== Re:VIEWサーバを構築・起動
 
 □コマンドプロンプトで以下のコマンドを実行します。
 
@@ -19,14 +17,11 @@ C:\Users\naveffy\projects\review-sample-book
 
 
 □TeraTermで「192.168.33.10」へログイン。
-
-
-===[column] ログインIDとパスワード
- 
-ID  ：vagrant
-Pass：vagrant
- 
-===[/column]
+: ログオンID
+  vagrant
+: Passwd
+  vagrant
+  ：
 
 
 
