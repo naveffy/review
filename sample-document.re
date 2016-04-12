@@ -1,4 +1,4 @@
-= VagrantでRe:VIEWサーバを作るよ
+= VagrantでRe:VIEWサーバを作る
 
 == Re:VIEWサーバを構築・起動してみる
 
